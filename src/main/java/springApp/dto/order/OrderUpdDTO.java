@@ -1,7 +1,5 @@
 package springApp.dto.order;
 
-import springApp.dto.product.ProductUpdDTO;
-import springApp.model.Customer;
 import springApp.model.Product;
 
 import javax.validation.constraints.NotEmpty;

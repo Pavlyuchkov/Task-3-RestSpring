@@ -1,10 +1,7 @@
 package springApp.controller;
 
-import org.hibernate.annotations.Cascade;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.Validator;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.WebDataBinder;
 import springApp.dto.customer.CustomerIncDTO;
 import springApp.dto.customer.CustomerOutDTO;
 import springApp.dto.customer.CustomerUpdDTO;
@@ -15,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import springApp.service.CustomerService;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController

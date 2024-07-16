@@ -6,7 +6,6 @@ import springApp.dto.customer.CustomerOutDTO;
 import springApp.dto.customer.CustomerUpdDTO;
 import springApp.model.Customer;
 import org.mapstruct.Mapper;
-import org.mapstruct.factory.Mappers;
 
 
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)

@@ -1,9 +1,6 @@
 package springApp.dto.order;
 
-import springApp.model.Product;
-
 import javax.validation.constraints.NotEmpty;
-import java.util.List;
 
 public class OrderOutDTO {
 
