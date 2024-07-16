@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Vasiliy
+      runAlways: true
+      changes:
+        - sqlFile:
+            path: changeset/db-migration.sql
+            relativeToChangelogFile: true

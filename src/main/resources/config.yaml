@@ -1,0 +1,15 @@
+database:
+  user: postgres
+  password: 12345
+  url: jdbc:postgresql://localhost:5432/RestSpring
+  driver: org.postgresql.Driver
+  pool.size: 10
+
+hibernate:
+  show_sql: true
+  format_sql: true
+  hbm2ddl.auto: validate
+
+liquibase:
+  changelog: classpath:db/changelog/db.changelog-master.yaml
+  databaseAutoInitialization: true
